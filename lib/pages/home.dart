@@ -15,11 +15,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       body: const HomeWidget(),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(content: Text('Floating Action Button Pressed')),
-          );
-        },
+        onPressed: () {},
         shape: const CircleBorder(),
         backgroundColor: Colors.white,
         child: Padding(
